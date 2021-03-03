@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+body {
+  background: #23814d;
+  color: #fff;
+  font-family: 'Akaya Telivigala', cursive;
+  text-align: center;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body .container {
+  background: #247047;
+  box-shadow: 0 0 13px black;
+  width: 375px;
+  margin: 0 auto;
+  border-radius: 5px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding: 10px;
+  margin: 0 1rem;
+}
+
+body .container input {
+  border: none;
+}
+
+body .container input:focus {
+  outline: none;
+}
+
+body .container .clip {
+  width: 95%;
+  padding: 10px;
+  background: #fff;
+}
+
+body .container .clip input {
+  width: 96%;
+}
+
+body .container .clip i {
+  color: gray;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+body .container div {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+body .container div input {
+  width: 40px;
+  padding: 5px;
+}
+
+body .container button {
+  border: none;
+  background: #23814d;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body .container button:focus {
+  outline: none;
+}
+
+body .container button:hover {
+  filter: brightness(120%);
+}
+/*# sourceMappingURL=main.css.map */

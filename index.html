@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <form>
+            <div class="clip">
+                <input type="text" readonly /> <i class="fas fa-clipboard"></i>
+            </div>
+            <div>
+                <label>Password length </label>
+                <input type="number" class="form-control" / min="4" value="20">
+            </div>
+            <div>
+                <label for="uppercase">Include uppercase letters</label>
+                <input type="checkbox" checked id="uppercase" />
+            </div>
+            <div>
+                <label for="lowercase">Include lowercase letters</label>
+                <input type="checkbox" checked id="lowercase" />
+            </div>
+            <div>
+                <label for="numbers">Include numbers</label>
+                <input type="checkbox" checked id="numbers" />
+            </div>
+            <div>
+                <label for="symbols">Include symbols</label>
+                <input type="checkbox" checked id="symbols" />
+            </div>
+            <button>Generate password</button>
+        </form>
+    </div>
+    <script src="https://kit.fontawesome.com/01eab78c02.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
